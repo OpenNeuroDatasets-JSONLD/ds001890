@@ -11,6 +11,22 @@
     "Levels": {
       "M": "Male",
       "F": "Female"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": ""
+      },
+      "Levels": {
+        "F": {
+          "TermURL": "snomed:248152002",
+          "Label": ""
+        },
+        "M": {
+          "TermURL": "snomed:248153007",
+          "Label": ""
+        }
+      }
     }
   },
   "genotype": {
@@ -18,27 +34,61 @@
     "Levels": {
       "M": "Male",
       "F": "Female"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": ""
+      },
+      "Levels": {
+        "F": {
+          "TermURL": "snomed:248152002",
+          "Label": ""
+        },
+        "M": {
+          "TermURL": "snomed:248153007",
+          "Label": ""
+        },
+        "3xTG": {
+          "TermURL": "nb:MissingValue",
+          "Label": ""
+        },
+        "3xTG_hydrocephalus": {
+          "TermURL": "nb:MissingValue",
+          "Label": ""
+        },
+        "C57BL/6": {
+          "TermURL": "nb:MissingValue",
+          "Label": ""
+        }
+      }
     }
   },
-"Weight": {
+  "Weight": {
     "Description": "Animal weight in grams"
   },
-"SpO2": {
+  "SpO2": {
     "Description": "Animal oxigen saturation recorded from hind paw with pulsed oximeter"
   },
-"HR": {
+  "HR": {
     "Description": "Animal heart rate recorded from hind paw with pulsed oximeter"
   },
-"Temperature": {
+  "Temperature": {
     "Description": "Animal rectal temperature in Celcius"
   },
-"DOB": {
+  "DOB": {
     "Description": "Animal date of birth"
   },
-"Experiment_Date": {
+  "Experiment_Date": {
     "Description": "Date of recording"
   },
-"Age": {
-    "Description": "Age in month at time of recording"
+  "Age": {
+    "Description": "Age in month at time of recording",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Age",
+        "Label": ""
+      }
+    }
   }
 }
