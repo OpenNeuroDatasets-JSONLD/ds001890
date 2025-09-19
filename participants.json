@@ -26,7 +26,8 @@
           "TermURL": "snomed:248153007",
           "Label": ""
         }
-      }
+      },
+      "VariableType": "Categorical"
     }
   },
   "genotype": {
@@ -54,7 +55,8 @@
         "C57BL/6",
         "3xTG_hydrocephalus",
         "3xTG"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "Weight": {
@@ -82,15 +84,16 @@
         "TermURL": "nb:Age",
         "Label": ""
       },
-      "Transformation": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
       "MissingValues": [
         "",
         "n/a",
         " "
-      ]
+      ],
+      "Format": {
+        "TermURL": "nb:FromInt",
+        "Label": "integer data"
+      },
+      "VariableType": "Continuous"
     }
   },
   "participant_id": {
@@ -99,7 +102,7 @@
         "TermURL": "nb:ParticipantID",
         "Label": ""
       },
-      "Identifies": "participant"
+      "VariableType": "Identifier"
     },
     "Description": "There should have been a description here, but there wasn't. :("
   }
